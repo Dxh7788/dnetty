@@ -29,12 +29,19 @@ public class DiscardServerHandler extends ChannelInboundHandlerAdapter {
             ReferenceCountUtil.release(msg); // (2)
         }*/
         //version 1.2
-        ByteBuf in = (ByteBuf) msg;
+        /*ByteBuf in = (ByteBuf) msg;
         try {
             System.out.println(in.toString(CharsetUtil.UTF_8));
         } finally {
             ReferenceCountUtil.release(msg); // (2)
-        }
+        }*/
+        /*version 1.3向客户端回显msg*/
+        ByteBuf in = (ByteBuf) msg;
+        System.out.println(in.toString(CharsetUtil.UTF_8));
+//        ctx.write(msg);
+//        ctx.flush();
+        //ctx.write and ctx.flush = ctx.writeAndFlush
+        ctx.writeAndFlush(msg);
     }
 
     @Override
