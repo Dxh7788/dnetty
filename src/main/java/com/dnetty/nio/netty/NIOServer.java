@@ -1,5 +1,4 @@
-package com.dnetty.io.netty;
-
+package com.dnetty.nio.netty;
 /**
  * Copyright (C) 2017-2018 https://www.htouhui.com - A project by dnetty
  *
@@ -7,4 +6,7 @@ package com.dnetty.io.netty;
  * @since 2018/6/27 9:24
  */
 public class NIOServer {
+
+    public static void main(String[] args) {
+    }
 }
