@@ -1,4 +1,4 @@
-package com.dnetty.main.server;
+package com.dnetty.example.server;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
@@ -52,7 +52,7 @@ public class DiscardServer {
     }
 
     public static void main(String[] args) throws Exception {
-        System.out.println(">>>>>>>>>>>>>>>>> Netty 服务端开启....");
+        System.out.println(">>>>>>>>>>>>>>>>> Netty Discard 服务端开启....");
         new DiscardServer(8080).run();
     }
 }

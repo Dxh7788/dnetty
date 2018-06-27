@@ -1,4 +1,4 @@
-package com.dnetty.main.client;
+package com.dnetty.example.client;
 
 /**
  * Copyright (C) 2017-2018 https://www.htouhui.com - A project by dnetty

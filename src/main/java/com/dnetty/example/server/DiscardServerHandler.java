@@ -1,10 +1,9 @@
-package com.dnetty.main.server;
+package com.dnetty.example.server;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
 import io.netty.util.CharsetUtil;
-import io.netty.util.ReferenceCountUtil;
 
 /**
  * Copyright (C) 2017-2018 https://www.htouhui.com - A project by dnetty
