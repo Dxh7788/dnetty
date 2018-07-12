@@ -1,4 +1,4 @@
-package com.dnetty.nio.netty;
+package com.dnetty.discard.nio.netty;
 /**
  * Copyright (C) 2017-2018 https://www.htouhui.com - A project by dnetty
  *

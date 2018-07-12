@@ -1,4 +1,4 @@
-package com.dnetty.io.plain;
+package com.dnetty.discard.io.plain;
 
 /**
  * Copyright (C) 2017-2018 https://www.htouhui.com - A project by dnetty
